@@ -14,6 +14,10 @@ function hideElem(elem) {
     elem.style.display = 'none';
 }
 
+function handlerCallBackForm() {
+
+};
+
 
 startButton.addEventListener('click', function() {
     showElem(mainForm);
@@ -31,3 +35,5 @@ endButton.addEventListener('click', function() {
     showElem(total);
 
 });
+
+formCalculate.addEventListener('change', handlerCallBackForm);
